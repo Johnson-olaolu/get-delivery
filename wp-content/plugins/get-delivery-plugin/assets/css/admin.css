@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.get-delivery-body {
+  font-family: "Raleway", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.get-delivery-body .get-delivery-header {
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.get-delivery-body .get-delivery-header .get-delivery-page-title {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.get-delivery-body .get-delivery-header .get-delivery-user-menu ul {
+  display: none;
+}
+
+.get-delivery-body .get-delivery-auth-body {
+  background-color: white;
+  padding: 2rem 2rem 4rem;
+  max-width: 500px;
+  border-radius: 6px;
+  margin: 5rem auto;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-header {
+  margin-bottom: 3rem;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-header .get-delivery-auth-header-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-header .get-delivery-auth-header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-header .get-delivery-auth-header-menu li {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-header .get-delivery-auth-header-menu li h2 {
+  border-bottom: 4px solid transparent;
+  width: 100px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 0.2rem;
+  cursor: pointer;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-header .get-delivery-auth-header-menu li h2.get-delivery-auth-header-menu-active {
+  border-bottom: 4px solid #333333;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-form .get-delivery-form-group {
+  margin-bottom: 3rem;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-form .get-delivery-form-group .get-delivery-form-group-label {
+  display: block;
+  color: #333333;
+  font-size: 1rem;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-form .get-delivery-form-group .get-delivery-form-group-input {
+  border: 1px solid #c6c6c6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  background-color: white;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-form .get-delivery-form-group .get-delivery-form-group-input input {
+  padding: 0.7rem 0rem 0.7rem 0.5rem;
+  outline: 0px;
+  border: none;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-size: 1rem;
+  line-height: 1.2;
+  min-height: auto;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-form .get-delivery-form-group .get-delivery-form-group-input input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-form .get-delivery-form-group .get-delivery-form-group-input .show-input-details {
+  margin: 0 1rem;
+  height: 24px;
+  cursor: pointer;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-form .get-delivery-submit-button {
+  font-size: 0.875rem;
+  width: 100%;
+  text-align: center;
+  padding: 0.8rem 2rem;
+  color: white;
+  background-color: #201e1e;
+  border: 1px solid white;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.get-delivery-body .get-delivery-auth-body .get-delivery-auth-form .get-delivery-submit-button:hover {
+  background-color: white;
+  color: #201e1e;
+  border: 1px solid #201e1e;
+}
+/*# sourceMappingURL=admin.css.map */
